@@ -1,0 +1,21 @@
+.content {
+    width: 70vw;
+    background-color: bisque;
+    height: 100%;
+    margin-left: 15vw;
+    padding: 32px;
+    margin-bottom: 32px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container > div > img {
+    width: 45vw;
+}
+
+.image-container > div > .image-container-text {
+    text-align: center;
+}

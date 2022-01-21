@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: beige;
+}
+
+.top-nav-bar {
+    height: 32px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.top-nav-bar-content {
+    display: flex;
+    line-height: 32px;
+    justify-content: flex-end;
+}
+
+.top-nav-bar-content > div {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: Arial;
+}
+
+.top-nav-bar-content > div > a {
+    text-decoration: none;
+}
+
+.top-nav-bar-content > div > a:link {
+    color: black;
+}
+
+.top-nav-bar-content > div > a:visited {
+    color: black;
+}
+
+.top-nav-bar-content > div > a:hover {
+    color: blue;
+}
+
+.head-image-container {
+    margin-bottom: 32px;
+}
+
+.head-image-container > img {
+    width: 100%;
+}
